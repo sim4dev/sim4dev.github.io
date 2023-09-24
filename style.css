@@ -1,0 +1,71 @@
+/* Universal styles */
+
+* {
+    font-family: "Work Sans";
+}
+
+p {
+    font-size: 16px;
+}
+
+header h1 {
+    background-color: #CAC7C7;
+    width:100%;
+    height: 100%;
+    text-align: center;
+    padding: 25px 0px;
+    margin: 0px;
+}
+
+/* Banner */
+
+.banner {
+    background-image: url("images/education.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: #FFFFFF;
+    height: 400px;
+    align-items: center;
+}
+
+.photo h2 {
+    text-align: center;
+}
+
+.education {
+    width: 70%;
+}
+
+.education h2 {
+    border-bottom: 1px solid #FFFFFF;
+    width: 12%;
+}
+
+.education p {
+    font-size: 1.2rem;
+}
+
+/* H2 between sections */
+
+h2 {
+    text-align: center;
+}
+
+/* Projects */
+
+.projects {
+    display: flex;
+    justify-content: center;
+}
+
+.data_insights a img {
+    width: 50%;
+    margin: 50px 25%;
+}
+
+.cta_data_insights {
+    color: #FFFFFF;
+}
