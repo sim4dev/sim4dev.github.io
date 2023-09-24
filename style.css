@@ -48,10 +48,47 @@ header h1 {
     font-size: 1.2rem;
 }
 
+@media only screen and (min-width: 350px) and (max-width: 450px) {
+    .banner {
+        background-image: url("images/education.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        color: #FFFFFF;
+        height: auto;
+        width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 30px 0px;
+    }
+    
+    .photo h2 {
+        text-align: center;
+    }
+    
+    .education {
+        width: 70%;
+    }
+    
+    .education h2 {
+        border-bottom: 1px solid #FFFFFF;
+        width: 49%;
+    }
+    
+    .education p {
+        font-size: 1.2rem;
+    }
+}
+
 /* H2 between sections */
 
-h2 {
+.h2 {
     text-align: center;
+    background-color: #fad017;
+    margin: 0px;
+    padding: 30px;
 }
 
 /* Projects */
@@ -68,4 +105,20 @@ h2 {
 
 .cta_data_insights {
     color: #FFFFFF;
+}
+
+@media only screen and (min-width: 350px) and (max-width: 450px) {
+    .projects {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .data_insights a img {
+        width: 70%;
+        margin: 50px 17.5%;
+    }
+    
+    .cta_data_insights {
+        color: #FFFFFF;
+    }
 }
